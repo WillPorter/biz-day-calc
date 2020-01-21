@@ -1,0 +1,13 @@
+{
+  "name": "biz-day-calc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.24.4"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-holiday": "^1.5.1"
+  }
+}

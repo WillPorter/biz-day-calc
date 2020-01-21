@@ -1,0 +1,68 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+input,
+select,
+textarea,
+fieldset {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+    clear: both;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 40px;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  height: var(--form-field-height);
+  padding: 10px;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+select {
+  line-height: 1.75;
+  padding: 10px;
+}
+
+select:not([multiple]) {
+  height: var(--form-field-height);
+  vertical-align: middle;
+}
+
+textarea {
+  line-height: 1.75;
+  padding: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+.results {
+    color: green;
+}
