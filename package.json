@@ -7,7 +7,7 @@
     "sass": "^1.24.4"
   },
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-holiday": "^1.5.1"
   }
 }
